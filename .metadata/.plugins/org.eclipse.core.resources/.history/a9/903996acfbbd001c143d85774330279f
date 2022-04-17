@@ -1,0 +1,20 @@
+package gamemania;
+
+import org.junit.Before;
+import org.junit.Test;
+import org.openqa.selenium.WebDriver;
+
+public class TesteLoginGameMania {
+	private WebDriver driver;
+	
+	@Before
+	public void abrirNavegador() {
+		System.setProperty("webdriver.chrome.driver", "C:\\Arquivos de Programas\\chromedriver\\chormedriver.exe");
+		
+	}
+	@Test
+	public void testeNavegador() {
+		driver.get("https:\\google.com");
+	}
+
+}
